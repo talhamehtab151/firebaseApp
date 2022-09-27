@@ -23,13 +23,13 @@ class RoundButton extends StatelessWidget {
         ),
         child: Center(
           child: loading
-              ? CircularProgressIndicator(
+              ? const CircularProgressIndicator(
                   strokeWidth: 3,
                   color: Colors.white,
                 )
               : Text(
                   title,
-                  style: TextStyle(color: Colors.white),
+                  style: const TextStyle(color: Colors.white),
                 ),
         ),
       ),

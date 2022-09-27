@@ -31,6 +31,8 @@ class _VerifyCodeScreenState extends State<VerifyCodeScreen> {
               height: 50,
             ),
             TextFormField(
+              autofocus: true,
+              keyboardType: TextInputType.phone,
               controller: veridyCodeController,
               decoration: InputDecoration(hintText: "6 digit Code"),
             ),

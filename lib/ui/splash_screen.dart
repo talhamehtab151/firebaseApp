@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return const Scaffold(
       body: Center(
           child: Text(
-        "Firebse Tutorials ",
+        "Splash Screen",
         style: TextStyle(fontSize: 30),
       )),
     );

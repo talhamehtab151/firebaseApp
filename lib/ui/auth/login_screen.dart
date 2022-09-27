@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
         appBar: AppBar(
             automaticallyImplyLeading: false,
-            title: Center(
+            title: const Center(
               child: Text("Login"),
             )),
         body: Padding(
@@ -77,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           prefixIcon: Icon(Icons.email),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 20,
                       ),
                       TextFormField(
@@ -94,7 +94,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           prefixIcon: Icon(Icons.lock),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 20,
                       ),
                     ],
@@ -138,7 +138,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   child: Center(child: Text("Login With Phone")),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               RoundButton(
@@ -149,7 +149,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         MaterialPageRoute(
                             builder: (context) => BouncingWidgetClass()));
                   }),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               RoundButton(
